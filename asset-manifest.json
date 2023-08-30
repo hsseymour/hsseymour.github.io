@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hsseymour.github.io/static/css/main.4d656198.css",
-    "main.js": "/hsseymour.github.io/static/js/main.44e9d53c.js",
-    "index.html": "/hsseymour.github.io/index.html",
-    "main.4d656198.css.map": "/hsseymour.github.io/static/css/main.4d656198.css.map",
-    "main.44e9d53c.js.map": "/hsseymour.github.io/static/js/main.44e9d53c.js.map"
+    "main.css": "/static/css/main.ba5f0321.css",
+    "main.js": "/static/js/main.44e9d53c.js",
+    "index.html": "/index.html",
+    "main.ba5f0321.css.map": "/static/css/main.ba5f0321.css.map",
+    "main.44e9d53c.js.map": "/static/js/main.44e9d53c.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d656198.css",
+    "static/css/main.ba5f0321.css",
     "static/js/main.44e9d53c.js"
   ]
 }
