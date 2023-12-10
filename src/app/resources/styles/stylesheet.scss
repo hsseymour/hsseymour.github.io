@@ -1,0 +1,208 @@
+$eigengrau: #16161d;
+$secondary_background: #222229;
+$body_fonts: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+$title_fonts: Garamond, serif;
+$text_colour: #fff;
+$title_size: calc(18px + 3vh);
+$subtitle_size: calc(15px + 2vh);
+$body_size: calc(10px + 1vh);
+$content_link_size: calc(5px + 2vh);
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: $text_colour;
+  font-family: $body_fonts;
+  font-size: $body_size;
+}
+
+a {
+  color: #4545ff;
+}
+
+body {
+  background-color: $eigengrau;
+}
+
+.title {
+  font-family: $title_fonts;
+  font-size: $title_size;
+  margin: 0px 5% 0px 5%;
+}
+
+.subtitle {
+  font-family: $title_fonts;
+  font-size: $subtitle_size;
+  margin: 0px 5% 0px 5%;
+}
+
+.mainDiv {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(30%, 1fr)
+  ); /* Adjust the width as needed */
+  grid-gap: 5px; /* Adjust the gap between items */
+}
+
+.section {
+  grid-column: span 1;
+  width: 40%;
+  min-width: 380px;
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 40%;
+
+  .fieldset {
+    border: 4px solid #fff;
+    box-shadow: 20px 20px 0px 10px rgba(0, 0, 0, 1);
+
+    .contentList {
+      background-color: $secondary_background;
+      margin: 4%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+
+      .listItem {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style-type: none;
+        cursor: pointer;
+        background-color: transparent;
+        text-align: left;
+        font-size: $content_link_size;
+        padding-left: 50px;
+      }
+      .listItem:hover {
+        border: 2px solid #fff;
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+
+      &.primary {
+        .listItem {
+          //   border: none;
+          border-radius: 20px;
+          width: 100%;
+          height: 50px;
+        }
+      }
+
+      &.secondary {
+        .listItem {
+          margin: 2%;
+          border: 2px solid #fff;
+          width: 95%;
+          padding: 5px 5px 5px 25px;
+        }
+      }
+    }
+
+    .contentBlock {
+      background-color: $secondary_background;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 4%;
+      gap: 20px;
+      padding: 20px;
+    }
+  }
+
+  .img {
+    display: block;
+    border: 2px solid #000;
+    margin: 5px;
+
+    &#nea_car_demo {
+      width: 30%;
+      min-width: 225px;
+      //   margin: auto;
+    }
+
+    &#nea_login_demo {
+      width: 20%;
+      min-width: 125px;
+      //   float: right;
+    }
+
+    &#nea_extract_demo {
+      max-width: 95%;
+      //   margin: auto;
+    }
+  }
+}
+
+// header li:hover {
+//   border: 2px solid white;
+//   background-color: rgba(0, 0, 0, 0.2);
+// }
+
+// .navlink {
+//   text-decoration: none;
+//   font-size: calc(5px + 3vh);
+//   color: #fff;
+// }
+
+// .innernavlink {
+//   padding: 1% 0px 1% 10%;
+// }
+
+// /* styling for the content sections */
+
+// #projectslistsection {
+//   clear: left;
+//   float: left;
+//   width: 40%;
+//   min-width: 390px;
+//   margin: 1%;
+// }
+
+// section fieldset {
+//   border: 4px solid #fff;
+//   box-shadow: 20px 20px 0px 10px rgba(0, 0, 0, 1);
+// }
+
+// section legend {
+//   font-family: var(---title_fonts);
+//   font-size: calc(20px + 3vh);
+// }
+
+// section ul {
+//   list-style-type: none;
+//   background-color: rgba(255, 255, 255, 0.05);
+//   padding: 0.5% 0px;
+// }
+
+// section li {
+//   border: 2px solid white;
+//   font-size: calc(5px + 2vh);
+//   padding: 1% 0px 1% 5%;
+//   margin: 2%;
+// }
+
+// .projectslihashlink {
+//   text-decoration: none;
+//   font-size: calc(5px + 3vh);
+//   color: #fff;
+// }
+
+// .rightdisplaysection {
+//   float: right;
+//   width: 45%;
+//   min-width: 390px;
+//   margin: 1%;
+// }
+
+// .rightdisplaysection legend {
+//   font-size: calc(15px + 2vh);
+// }
+
+// /* styling for images, primarily within project section */

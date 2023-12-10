@@ -1,0 +1,23 @@
+{
+  "about": {
+    "title": "About",
+    "content": [
+      "<p>My name is Harry Seymour, I am a software developer based in the south of England. This is a temporary portfolio site so show off some of the projects that I have worked on.</p>",
+      "<p>I have previous experience with .net development, SQL databasemanagement, computer vision and machine learning applications inPython, C and C++, as well as experience with embedded systems inlow level languages. Some of my work has also involved some basicelectronics.</p>",
+      "<p>My background is in cognitive and developmental neuropsychology. My master's degree included modules in advanced statistics and introduced me to data processing and analysis using Python and MATLAB.</p>"
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "content": []
+  },
+  "contact": {
+    "title": "Contact",
+    "content": [
+      "<p>GitHub:</p>",
+      "<a href='https://github.com/hsseymour/' target='_blank'>HSSeymour</a>",
+      "<p>LinkedIn:</p>",
+      "<a href='https://linkedin.com/in/harry-seymour/' target='_blank'>Harry Seymour</a>"
+    ]
+  }
+}

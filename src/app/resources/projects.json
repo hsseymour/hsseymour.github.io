@@ -1,0 +1,52 @@
+{
+  "anpr_app": {
+    "title": "ANPR Mobile App (A-Level Coursework)",
+    "content": [
+      "<p>For my A-Level computer science coursework I chose to develop a mobile application that could identify vehicle registration plates, read the plate number, and send it to a remote server.</p>",
+      "<img id='nea_car_demo' class='img' src='images/nea_car_demo.PNG' alt='a car with its licence plate highlighted' />",
+      "<p>The coursework involved identifying and discussing with potential stakeholders in order to develop a suitable solution to a real life issue.</p>",
+      "<p>Due to starting the course late I only had 3 months from begining the project to the final submission which included both technical development and extensive documentation of the design, develop, and testing processes. Moderators awarded the project a mark of 68/70.</p>",
+      "<img id='nea_login_demo' class='img' src='images/nea_login_demo.PNG' alt='a login page for a mobile application' />",
+      "<p>The application was developed using Python. I chose this language because no marks were awarded for UI so being able to rapidly prototype different algorithms and extensive computer vision libraries took priority. In the final write up I discussed which languages would be suitable were the project to go beyond prototyping stages.</p>",
+      "<p>The final application was able to correctly read a number plate under the conditions previously determined by stakeholders. It could then automatically send it to a remote Apache server that I was hosting to be stored in an SQL database.</p>",
+      "<p>The final code and documentation is available on request.</p>",
+      "<img id='nea_extract_demo' class='img' src='images/nea_extract_demo.PNG' alt='a seven step process for extracting text from a number plate' />"
+    ]
+  },
+  "petscanner": {
+    "title": "PetScanner",
+    "content": [
+      "<p>PetScanner is one of the government approved microchip databases for pets in the UK.</p>",
+      "<p>My role at Petscanner as a junior developer began with a focus on developing a multi-platform application that would be used by the thousands of people with their pets registered in the PetScanner database. The app was being developed using Xamarin, a .net development platform written in c# and XAML.</p>",
+      "<p>The mobile application was developed to work alongside the PetScanner portable scanners and so in my role I had to develop a knowledge of bluetooth protocol and native system features.</p>",
+      "<p>Over time my responsibilities expanded to include assisting in maintaining the extensive database, servers, and contributing to the PetScanner website.</p>",
+      "<a href='https://petscanner.com/'target='_blank'>Link to the current PetScanner website.</a>"
+    ]
+  },
+  "m2_controls": {
+    "title": "M2 Control Systems",
+    "content": [
+      "<p>M2 Control Systems is an electronics company in the south of England that builds bespoke power distribution equipment. Using 3D CAD technology the company develops critical systems for a range of clients. Its partner company, Dynamic Laser Solutions, specialises in ultra precision balancing of gyroscopes and reaction wheels as well as the production of world class laser balancing systems.</p>",
+      "<p>My role for these companies included writing low level and intermediary code for embedded systems. Most of these projects included development and/or prototyping in C, C++, and Arduino, a subset of C that allows for inline assembly code.</p>",
+      "<p>The systems developed would go on to enable precision balancing of reaction wheels to be used in space satellites as well gyroscopes in similar critical systems.</p>",
+      "<a href='https://m2controls.co.uk/index.php' target='_blank'>Link to the current M2 Control Systems website.</a>",
+      "<br />",
+      "<a href='https://dynamiclasersolutions.com/' target='_blank'>Link to the current Dynamic Laser Solutions website.</a>"
+    ]
+  },
+  "m2_defence": {
+    "title": "M2 Defence",
+    "content": [
+      "<p>Following the invasion of Ukraine by Russia in 2022, I was able to work with my company at the time, M2 Control Systems, to develop unique systems to support Ukrainian forces. The projects gained attention from the British Ministry of Defence and recieved significant funding from the Rapid Procurement Initiative.</p>",
+      "<p>My primary role in the projects involved development of computer vision algorithms that would provide rapid and reliable detection whilst running on lightweight sytems. In addition to this, my responsibilities included development of ground station software and extensive manipulation of the MAVLink protocol.</p>"
+    ]
+  },
+  "learn_bg": {
+    "title": "Learn Bulgarian Online",
+    "content": [
+      "<p>This project began as a hobby challenge to develop a React web application in my spare time within one week.</p>",
+      "<p>The site is intended to provide a free resource to learn the basics of the Bulgarian language.</p>",
+      "<a href='https://www.hsseymour.com/bg-test/ target='_blank''>Link to the current Learn Bulgarian Online site.</a>"
+    ]
+  }
+}
