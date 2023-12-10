@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.7508dc4b.css",
-    "main.js": "/static/js/main.bd890ab7.js",
-    "static/media/nea_car_demo.PNG": "/static/media/nea_car_demo.2a5191beb5503b85598f.PNG",
-    "static/media/nea_extract_demo.PNG": "/static/media/nea_extract_demo.ba6ffd94493a6a8257ef.PNG",
-    "static/media/nea_login_demo.PNG": "/static/media/nea_login_demo.6cdd2aca9615e88e7824.PNG",
+    "main.css": "/static/css/main.fe431d06.css",
+    "main.js": "/static/js/main.706bfce2.js",
     "index.html": "/index.html",
-    "main.7508dc4b.css.map": "/static/css/main.7508dc4b.css.map",
-    "main.bd890ab7.js.map": "/static/js/main.bd890ab7.js.map"
+    "main.fe431d06.css.map": "/static/css/main.fe431d06.css.map",
+    "main.706bfce2.js.map": "/static/js/main.706bfce2.js.map"
   },
   "entrypoints": [
-    "static/css/main.7508dc4b.css",
-    "static/js/main.bd890ab7.js"
+    "static/css/main.fe431d06.css",
+    "static/js/main.706bfce2.js"
   ]
 }
