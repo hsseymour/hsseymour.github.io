@@ -1,52 +1,163 @@
 {
   "anpr_app": {
     "title": "ANPR Mobile App (A-Level Coursework)",
+    "description": "For my A-Level computer science coursework, I embarked on the development of a mobile application designed to identify vehicle registration plates, extract the plate number, and seamlessly transmit it to a remote server.",
     "content": [
-      "<p>For my A-Level computer science coursework I chose to develop a mobile application that could identify vehicle registration plates, read the plate number, and send it to a remote server.</p>",
-      "<img id='nea_car_demo' class='img' src='images/nea_car_demo.PNG' alt='a car with its licence plate highlighted' />",
-      "<p>The coursework involved identifying and discussing with potential stakeholders in order to develop a suitable solution to a real life issue.</p>",
-      "<p>Due to starting the course late I only had 3 months from begining the project to the final submission which included both technical development and extensive documentation of the design, develop, and testing processes. Moderators awarded the project a mark of 68/70.</p>",
-      "<img id='nea_login_demo' class='img' src='images/nea_login_demo.PNG' alt='a login page for a mobile application' />",
-      "<p>The application was developed using Python. I chose this language because no marks were awarded for UI so being able to rapidly prototype different algorithms and extensive computer vision libraries took priority. In the final write up I discussed which languages would be suitable were the project to go beyond prototyping stages.</p>",
-      "<p>The final application was able to correctly read a number plate under the conditions previously determined by stakeholders. It could then automatically send it to a remote Apache server that I was hosting to be stored in an SQL database.</p>",
-      "<p>The final code and documentation is available on request.</p>",
-      "<img id='nea_extract_demo' class='img' src='images/nea_extract_demo.PNG' alt='a seven step process for extracting text from a number plate' />"
+      {
+        "subHeading": "🚗 Project Overview: ",
+        "subContent": "This coursework project entailed a comprehensive approach, involving identification and discussions with potential stakeholders to address a real-life issue. Despite a late start, I navigated the entire project lifecycle—from conception to submission—within a tight three-month timeframe. This encompassed both technical development and meticulous documentation of the design, development, and testing processes."
+      },
+      {
+        "subHeading": "image",
+        "img": {
+          "id": "nea_car_demo",
+          "class": "img",
+          "src": "images/nea_car_demo.PNG",
+          "alt": "a car with a box drawn by a computer around its licence plate"
+        }
+      },
+      {
+        "subHeading": "🏆 Academic Recognition:",
+        "subContent": "The project received acclaim from moderators, earning a strong mark of 68/70. The stringent evaluation acknowledged the robust execution of the project within challenging constraints."
+      },
+      {
+        "subHeading": "💻 Technical Details:",
+        "subContent": "Developed using Python, the chosen language prioritized rapid prototyping of diverse algorithms and extensive utilization of computer vision libraries. With no marks allocated for the User Interface (UI), the emphasis was on efficiency and functionality. The final write-up delved into discussions about the suitability of various languages, particularly for scenarios beyond the prototyping stages."
+      },
+      {
+        "subHeading": "image",
+        "img": {
+          "id": "nea_login_demo",
+          "class": "img",
+          "src": "images/nea_login_demo.PNG",
+          "alt": "a login page for a mobile application built in python"
+        }
+      },
+      {
+        "subHeading": "🔍 Key Achievements:",
+        "subContent": "The resultant application successfully identified number plates under pre-determined conditions, meeting the expectations outlined by stakeholders. It seamlessly transmitted the extracted information to a remote Apache server, hosted and stored in an SQL database for further analysis."
+      },
+      {
+        "subHeading": "📄 Documentation and Code:",
+        "subContent": "For those interested, the final code and comprehensive documentation are available upon request. Feel free to explore the intricacies of the project and gain insights into the thought processes behind its development."
+      },
+      {
+        "subHeading": "image",
+        "img": {
+          "id": "nea_extract_demo",
+          "class": "img",
+          "src": "images/nea_extract_demo.PNG",
+          "alt": "a seven step process for extracting text from an image of a car licence plate"
+        }
+      }
     ]
   },
   "petscanner": {
     "title": "PetScanner",
+    "description": "PetScanner stands as a government-approved microchip database dedicated to pets in the UK, offering a robust platform for pet owners to register and safeguard their beloved companions.",
     "content": [
-      "<p>PetScanner is one of the government approved microchip databases for pets in the UK.</p>",
-      "<p>My role at Petscanner as a junior developer began with a focus on developing a multi-platform application that would be used by the thousands of people with their pets registered in the PetScanner database. The app was being developed using Xamarin, a .net development platform written in c# and XAML.</p>",
-      "<p>The mobile application was developed to work alongside the PetScanner portable scanners and so in my role I had to develop a knowledge of bluetooth protocol and native system features.</p>",
-      "<p>Over time my responsibilities expanded to include assisting in maintaining the extensive database, servers, and contributing to the PetScanner website.</p>",
-      "<a href='https://petscanner.com/'target='_blank'>Link to the current PetScanner website.</a>"
+      {
+        "subHeading": "👨‍💻 My Journey at PetScanner:",
+        "subContent": "Commencing as a junior developer at PetScanner, my primary focus centered around crafting a multi-platform application tailored for the expansive user base enrolled in the PetScanner database. Leveraging Xamarin—a .NET development platform written in C# and XAML—I played a pivotal role in delivering a seamless and user-friendly experience to thousands of pet owners."
+      },
+      {
+        "subHeading": "📱 Mobile App Development:",
+        "subContent": "The mobile application I contributed to was intricately designed to complement PetScanner's portable scanners. This involved delving into the nuances of Bluetooth protocols and native system features. As a result, my role necessitated the development of a deep understanding of these technologies to ensure optimal functionality and integration."
+      },
+      {
+        "subHeading": "🌐 Expanding Responsibilities:",
+        "subContent": "As time progressed, my role at PetScanner evolved beyond mobile app development. I actively contributed to maintaining the extensive database and servers that form the backbone of PetScanner's operations. Additionally, my responsibilities extended to playing a role in enhancing the PetScanner website, where I further honed my skills in web development."
+      },
+      {
+        "subHeading": "🚀 Contributing to PetScanner's Mission: ",
+        "subContent": "PetScanner's commitment to pet safety and owner convenience has been a driving force in my professional growth. My contributions spanned multiple facets, from developing user-centric applications to maintaining critical databases and contributing to the digital face of PetScanner on its website."
+      },
+      {
+        "subHeading": "🔗 Explore PetScanner: ",
+        "subContent": "For a closer look at PetScanner and its current offerings, feel free to visit the <a href='https://petscanner.com/'target='_blank'>PetScanner website</a>."
+      },
+      {
+        "subHeading": "",
+        "subContent": "My journey at PetScanner has been a dynamic exploration of software development intricacies, from mobile applications to server maintenance and web development. The experience has not only expanded my technical prowess but also instilled a deep appreciation for the impact of technology in safeguarding our cherished animal companions."
+      }
     ]
   },
   "m2_controls": {
     "title": "M2 Control Systems",
+    "description": "Nestled in the south of England, M2 Control Systems stands as a prominent electronics company specializing in the creation of bespoke power distribution equipment. Leveraging advanced 3D CAD technology, the company is dedicated to developing critical systems that cater to a diverse clientele. In tandem, its partner company, Dynamic Laser Solutions, excels in ultra-precision balancing of gyroscopes and reaction wheels, along with the production of world-class laser balancing systems.",
     "content": [
-      "<p>M2 Control Systems is an electronics company in the south of England that builds bespoke power distribution equipment. Using 3D CAD technology the company develops critical systems for a range of clients. Its partner company, Dynamic Laser Solutions, specialises in ultra precision balancing of gyroscopes and reaction wheels as well as the production of world class laser balancing systems.</p>",
-      "<p>My role for these companies included writing low level and intermediary code for embedded systems. Most of these projects included development and/or prototyping in C, C++, and Arduino, a subset of C that allows for inline assembly code.</p>",
-      "<p>The systems developed would go on to enable precision balancing of reaction wheels to be used in space satellites as well gyroscopes in similar critical systems.</p>",
-      "<a href='https://m2controls.co.uk/index.php' target='_blank'>Link to the current M2 Control Systems website.</a>",
-      "<br />",
-      "<a href='https://dynamiclasersolutions.com/' target='_blank'>Link to the current Dynamic Laser Solutions website.</a>"
+      {
+        "subHeading": "💻 My Role in Innovation:",
+        "subContent": "During my tenure with M2 Control Systems, my role was pivotal in the realm of software development. I was tasked with writing low-level and intermediary code for embedded systems, a domain crucial for the seamless operation of bespoke power distribution equipment. The projects at hand often involved intricate development and prototyping in languages such as C, C++, and Arduino—a subset of C that facilitates the integration of inline assembly code."
+      },
+      {
+        "subHeading": "🌐 Project Impact and Specialization:",
+        "subContent": "The systems I contributed to had a profound impact, enabling precision balancing of reaction wheels destined for use in space satellites. Additionally, the expertise extended to gyroscopes in other critical systems, showcasing the versatility and sophistication embedded in the solutions crafted by M2 Control Systems."
+      },
+      {
+        "subHeading": "🌐 Explore More:",
+        "subContent": "For a closer look at the innovative solutions and capabilities offered by M2 Control Systems, feel free to explore the <a href='https://m2controls.co.uk/index.php' target='_blank'>M2 Control Systems website.</a>. Likewise, for insights into the ultra-precision balancing expertise of Dynamic Laser Solutions, visit the <a href='https://dynamiclasersolutions.com/' target='_blank'>Dynamic Laser Solutions website.</a>."
+      },
+      {
+        "subHeading": "",
+        "subContent": "This chapter of my professional journey at M2 Control Systems was defined by intricate coding, innovative solutions, and a commitment to excellence that resonates across borders. It remains a testament to the intersection of technology, precision engineering, and the pursuit of cutting-edge solutions."
+      }
     ]
   },
   "m2_defence": {
     "title": "M2 Defence",
+    "description": "In response to the 2022 invasion of Ukraine by Russia, I had the privilege of contributing to vital initiatives as part of M2 Defence (a subsidary company of M2 Control Systems). This collaboration aimed to develop bespoke systems specifically tailored to support Ukrainian forces, drawing attention from the British Ministry of Defence and securing significant funding through the Rapid Procurement Initiative.",
     "content": [
-      "<p>Following the invasion of Ukraine by Russia in 2022, I was able to work with my company at the time, M2 Control Systems, to develop unique systems to support Ukrainian forces. The projects gained attention from the British Ministry of Defence and recieved significant funding from the Rapid Procurement Initiative.</p>",
-      "<p>My primary role in the projects involved development of computer vision algorithms that would provide rapid and reliable detection whilst running on lightweight sytems. In addition to this, my responsibilities included development of ground station software and extensive manipulation of the MAVLink protocol.</p>"
+      {
+        "subHeading": "🌐 Project Overview:",
+        "subContent": "Within the scope of these projects, my primary focus lay in the development of cutting-edge computer vision algorithms. These algorithms were meticulously crafted to deliver rapid and reliable detection capabilities, crucial for the dynamic and challenging operational environments faced by Ukrainian forces. The emphasis was on ensuring seamless integration into lightweight systems to enhance efficiency."
+      },
+      {
+        "subHeading": "💻 Technical Contributions:",
+        "subContent": "In addition to computer vision development, my responsibilities extended to the creation of ground station software—a critical component for effective coordination and control. Delving into the intricacies of the MAVLink protocol, I played a substantial role in its extensive manipulation to align with project requirements. This encompassed refining communication protocols to ensure seamless and secure data exchange within the system."
+      },
+      {
+        "subHeading": "💪 Rapid Procurement Initiative Impact:",
+        "subContent": "The projects garnered attention and support from the British Ministry of Defence, resulting in substantial funding through the Rapid Procurement Initiative. This recognition underscored the critical nature of the initiatives and their potential impact on bolstering the capabilities of Ukrainian forces."
+      },
+      {
+        "subHeading": "🚀 Ongoing Commitment:",
+        "subContent": "The experience with M2 Defence not only showcased the power of technology in addressing urgent geopolitical challenges but also deepened my understanding of the pivotal role software development plays in national security initiatives. The ongoing commitment to innovation and collaboration remains a cornerstone of my professional ethos."
+      },
+      {
+        "subHeading": "📈 Continued Exploration:",
+        "subContent": "As the landscape of defense technology evolves, my commitment to contributing innovative solutions persists. The projects with M2 Defence were a testament to the transformative impact that technology can have on geopolitical landscapes, reinforcing my dedication to meaningful contributions within the field."
+      },
+      {
+        "subHeading": "",
+        "subContent": "This role stands as a testament to the potential of technology in addressing urgent geopolitical challenges, and it remains a pivotal chapter in my journey as a software developer."
+      }
     ]
   },
-  "learn_bg": {
-    "title": "Learn Bulgarian Online",
+  "learn_languages": {
+    "title": "Languages Online",
+    "description": "Welcome to my Languages Online Hub—a dynamic platform currently in progress, crafted with the aim of facilitating the exploration and learning of modern foreign languages. As an enthusiast dedicated to language learning, this project embodies my passion for linguistic diversity and cultural understanding.",
     "content": [
-      "<p>This project began as a hobby challenge to develop a React web application in my spare time within one week.</p>",
-      "<p>The site is intended to provide a free resource to learn the basics of the Bulgarian language.</p>",
-      "<a href='https://www.hsseymour.com/bg-test/ target='_blank''>Link to the current Learn Bulgarian Online site.</a>"
+      {
+        "subHeading": "🌍 A Multifaceted Linguistic Journey:",
+        "subContent": "Designed as an interactive space for language learners, the Languages Online Hub is a work in progress aimed at providing comprehensive resources and engaging tools to foster a rich understanding of modern foreign languages. This initiative stems from my profound interest in learning and exploring languages as a hobby."
+      },
+      {
+        "subHeading": "💡 What to Expect:",
+        "subContent": " As the project evolves, learners can anticipate a variety of language-learning materials, including vocabulary guides, grammar tutorials, and interactive exercises tailored to suit various proficiency levels. The goal is to create a vibrant and immersive learning experience that resonates with individuals keen on discovering the nuances of the language."
+      },
+      {
+        "subHeading": "🤝 Join the Community:",
+        "subContent": "The Languages Online Hub isn't just a solo endeavor—it's an open invitation for language enthusiasts to come together, exchange insights, and support each other on the journey to mastering a foreign language. The platform aims to foster a community where learners can share experiences, seek guidance, and celebrate linguistic achievements."
+      },
+      {
+        "subHeading": "📈 Continuous Growth and Development:",
+        "subContent": "Just as language learning is an ongoing process, the Languages Online Hub is a living project that will continue to expand and refine its offerings. The aim is to create a valuable resource for anyone intrigued by the beauty and complexity of learning another language."
+      },
+      {
+        "subHeading": "🌐 Stay Tuned for Updates:",
+        "subContent": " Curious to embark on this linguistic adventure? Keep an eye on the Languages Online Hub as it unfolds. For updates and insights into the language-learning journey, stay connected through the <a href='' target='_blank'>Languages Online Hub</a>.<p>***NOTICE: the hub is currently undergoing maintenance and is not accessible by the public at this time***"
+      }
     ]
   }
 }

@@ -6,7 +6,9 @@ const Header = ({ setCurrentContentSelection }) => {
   return (
     <header className="section">
       <fieldset className="fieldset">
-        <legend className="title">Harry Seymour</legend>
+        <legend className="legend">
+          <h1 className="title">Harry Seymour</h1>
+        </legend>
         <nav>
           <ul className="contentList primary">
             <li className="listItem" onClick={() => handleClick(1)}>

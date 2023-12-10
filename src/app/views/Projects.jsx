@@ -14,7 +14,9 @@ const Projects = ({ setCurrentProjectSelection }) => {
   return (
     <section className="section">
       <fieldset className="fieldset">
-        <legend className="subtitle">Projects</legend>
+        <legend className="legend">
+          <h2 className="subtitle">Projects</h2>
+        </legend>
         <ul className="contentList secondary">{ListProjects}</ul>
       </fieldset>
     </section>

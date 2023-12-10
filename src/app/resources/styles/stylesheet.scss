@@ -25,18 +25,6 @@ body {
   background-color: $eigengrau;
 }
 
-.title {
-  font-family: $title_fonts;
-  font-size: $title_size;
-  margin: 0px 5% 0px 5%;
-}
-
-.subtitle {
-  font-family: $title_fonts;
-  font-size: $subtitle_size;
-  margin: 0px 5% 0px 5%;
-}
-
 .mainDiv {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -64,6 +52,23 @@ body {
   .fieldset {
     border: 4px solid #fff;
     box-shadow: 20px 20px 0px 10px rgba(0, 0, 0, 1);
+
+    .legend {
+      margin: 0px 5% 0px 5%;
+      font-weight: 500;
+
+      .title {
+        font-family: $title_fonts;
+        font-size: $title_size;
+        margin: 0px 15px;
+      }
+
+      .subtitle {
+        font-family: $title_fonts;
+        font-size: $subtitle_size;
+        margin: 0px 10px;
+      }
+    }
 
     .contentList {
       background-color: $secondary_background;
@@ -119,6 +124,9 @@ body {
       margin: 4%;
       gap: 20px;
       padding: 20px;
+
+      // .contentSubHeadings {
+      // }
     }
   }
 

@@ -15,18 +15,6 @@ body {
   background-color: #16161d;
 }
 
-.title {
-  font-family: Garamond, serif;
-  font-size: calc(18px + 3vh);
-  margin: 0px 5% 0px 5%;
-}
-
-.subtitle {
-  font-family: Garamond, serif;
-  font-size: calc(15px + 2vh);
-  margin: 0px 5% 0px 5%;
-}
-
 .mainDiv {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -54,6 +42,20 @@ body {
 .section .fieldset {
   border: 4px solid #fff;
   box-shadow: 20px 20px 0px 10px rgb(0, 0, 0);
+}
+.section .fieldset .legend {
+  margin: 0px 5% 0px 5%;
+  font-weight: 500;
+}
+.section .fieldset .legend .title {
+  font-family: Garamond, serif;
+  font-size: calc(18px + 3vh);
+  margin: 0px 15px;
+}
+.section .fieldset .legend .subtitle {
+  font-family: Garamond, serif;
+  font-size: calc(15px + 2vh);
+  margin: 0px 10px;
 }
 .section .fieldset .contentList {
   background-color: #222229;

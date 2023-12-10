@@ -7,7 +7,9 @@ const Contact = () => {
   return (
     <section className="section">
       <fieldset className="fieldset">
-        <legend className="subtitle">{currentPage.title}</legend>
+        <legend className="legend">
+          <h2 className="subtitle">{currentPage.title}</h2>
+        </legend>
         <div
           className="contentBlock"
           dangerouslySetInnerHTML={{ __html: content }}

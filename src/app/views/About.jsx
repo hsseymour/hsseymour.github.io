@@ -4,16 +4,23 @@ import pages from "../resources/pages.json";
 
 const About = () => {
   const currentPage = pages["about"];
-  const content = currentPage.content.join("");
 
   return (
     <section className="section">
       <fieldset className="fieldset">
-        <legend className="subtitle">{currentPage.title}</legend>
-        <div
-          className="contentBlock"
-          dangerouslySetInnerHTML={{ __html: content }}
-        />
+        <legend className="legend">
+          <h2 className="subtitle">{currentPage.title}</h2>
+        </legend>
+        <div className="contentBlock">
+          <h4 className="contentSubHeadings">{currentPage.heading}</h4>
+          <p>{currentPage.description}</p>
+          {currentPage.content.map((subTopic) => (
+            <>
+              <h5 className="contentSubHeadings">{subTopic.subHeading}</h5>
+              <p>{subTopic.subContent}</p>
+            </>
+          ))}
+        </div>
       </fieldset>
     </section>
   );

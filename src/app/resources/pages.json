@@ -1,10 +1,33 @@
 {
   "about": {
     "title": "About",
+    "heading": "🚀 Welcome to my Development Journey!",
+    "description": "Hello, I'm Harry Seymour, a passionate software developer based in the picturesque south of England. This temporary portfolio site is a glimpse into the diverse projects that have fueled my journey in the tech world.",
     "content": [
-      "<p>My name is Harry Seymour, I am a software developer based in the south of England. This is a temporary portfolio site so show off some of the projects that I have worked on.</p>",
-      "<p>I have previous experience with .net development, SQL databasemanagement, computer vision and machine learning applications inPython, C and C++, as well as experience with embedded systems inlow level languages. Some of my work has also involved some basicelectronics.</p>",
-      "<p>My background is in cognitive and developmental neuropsychology. My master's degree included modules in advanced statistics and introduced me to data processing and analysis using Python and MATLAB.</p>"
+      {
+        "subHeading": "🛠️ Versatility in Development:",
+        "subContent": "My development journey has been marked by versatility. From .NET and SQL in the corporate realm to Python, C, and C++ for computer vision and machine learning applications, I've embraced a wide array of technologies. My hands-on experience extends to embedded systems, dipping into the intricacies of low-level languages, and even delving into basic electronics."
+      },
+      {
+        "subHeading": "🧠 Cognitive Neuropsychology Roots:",
+        "subContent": "My foundation lies in cognitive and developmental neuropsychology. A master's degree enriched my understanding, incorporating advanced statistics and sparking my interest in data processing and analysis using Python and MATLAB."
+      },
+      {
+        "subHeading": "🌐 A Snapshot of Expertise:",
+        "subContent": "In the dynamic landscape of software development, I've played pivotal roles in high-profile defense contracts, honed frontend skills for industry leaders, and explored the realm of mobile development. My journey has seen me navigating complex codebases, contributing to bespoke ground stations, and even managing long-range camera feeds for critical surveillance applications."
+      },
+      {
+        "subHeading": "🃏 Beyond the Code:",
+        "subContent": "Outside the digital realm, I wear the hats of a close-up magician and an enthusiastic rock climber. These pursuits offer a refreshing balance to the intricacies of coding and serve as a testament to my diverse interests."
+      },
+      {
+        "subHeading": "🎓 Next Horizon:",
+        "subContent": "With a robust foundation and a passion for innovation, my next horizon involves pursuing an MEng in Computer Science. The goal is to further elevate my skills and contribute meaningfully to the evolving landscape of technology."
+      },
+      {
+        "subHeading": "🤝 Connect and Explore:",
+        "subContent": "I invite you to explore this snapshot of my journey, projects, and interests. Let's connect and delve into the possibilities of collaboration and shared exploration in the vast realm of technology!"
+      }
     ]
   },
   "projects": {
